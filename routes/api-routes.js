@@ -35,6 +35,18 @@ module.exports = function (app) {
         res.json(err);
       });
   });
+
+  //route to display stats
+  app.get("/api/workouts/range", (req, res) => {
+    Workout.find({})
+      .then((dbWorkout) => {
+        res.json(dbWorkout);
+      })
+      .catch((err) => {
+        res.status(400).json(err);
+      });
+  });
+};
   
 // Creates a new workout in the workout database
 // app.post("/api/workouts", async (req, res) => {
@@ -48,4 +60,4 @@ module.exports = function (app) {
 
 
 
-}
+

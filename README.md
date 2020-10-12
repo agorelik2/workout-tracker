@@ -8,7 +8,7 @@ agorelik2
 
 Workout Tracker
 
-- [Link to the deployed application](https://workout-tracker-alina.herokuapp.com/_)
+[Link to the deployed application](https://workout-tracker-alina.herokuapp.com/)
 
 ## Table of Content
 

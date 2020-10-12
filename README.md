@@ -25,7 +25,7 @@ Workout Tracker
 
 ## Description
 
-This application helps you better track your resistance and cardio workouts in order to reach your fitness goals.The stats page will allow you to see in elegante graphs your performance overtime, allowing you see where you can improve as well what excercises have had a positive impact in your workouts.
+This application helps you better track your resistance and cardio workouts in order to reach your fitness goals. The stats page will allow you to see graphs representing your performance overtime.
 
 ## User Story
 
@@ -109,7 +109,7 @@ To use this application locally:
 
 - Install Node.js on your computer.
 - Use `npm install` to install all the dependencies, see [Dependencies](#dependencies) for the complete list
-- Use `npm run seed` to populate the database with seeds
+- Use `npm run seed` to populate the database with initial records
 - Open a terminal, navigate to the folder where **_server.js_** is located and type: `node server.js`
 - Once the server is running, open a browser and navigate to localhost:4000 or the port you have selected
 
@@ -128,6 +128,8 @@ To use this application locally:
 - HTML, CSS, JavaScript, Mongo DB, Mongoose
 
 ## Repo:
+
+https://github.com/agorelik2/workout-tracker
 
 ## Demo:
 

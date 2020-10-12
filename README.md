@@ -1,6 +1,6 @@
 # workout-tracker
 
-# Username:
+## Username:
 
 agorelik2
 
@@ -22,7 +22,6 @@ Workout Tracker
 - [Repo](#repo)
 - [Demo](#demo)
 - [Developer](#developer)
-- [CopyRight](#copyright)
 
 ## Description
 
@@ -110,7 +109,7 @@ To use this application locally:
 
 - Install Node.js on your computer.
 - Use `npm install` to install all the dependencies, see [Dependencies](#dependencies) for the complete list
-- Use 'npm run seed' command to populate the database with seeds
+- Use `npm run seed` to populate the database with seeds
 - Open a terminal, navigate to the folder where **_server.js_** is located and type: `node server.js`
 - Once the server is running, open a browser and navigate to localhost:4000 or the port you have selected
 

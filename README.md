@@ -37,11 +37,10 @@ This application helps you better track your resistance and cardio workouts in o
 
 ## Functionality
 
-- User is presented with the details of the last workout, and is able to choose between creating a new workout or continueing the existing workout
-- Fitness Tracker Dashboard allows user to add a new workout
-- User is required to select a type of workout from "Resistance" and "Cardio"
-- User is presented with the screen that allows him to add the details of the exercise including
-- User can either "Add Exercise" or "Complete" option
+- User is presented with the details of his last workout, and is able to choose between creating a new workout or continueing the existing workout
+- Once the selection is made, user is presented with a new screen that allows him to enter the details for the new exercise or workout. Fist, user is required to select a type of the new exercise. The two options are "Resistance" and "Cardio"
+- User can enter the details for the exercise based on the type of the exercise selected before.
+- User can select either "Add Exercise" or "Complete" option
 - User can see the graphic representation of workout tracker if he clicks on the "Fitness Tracker Dashboard" link
 
 ## Database
@@ -102,7 +101,7 @@ User can see the graphic representation of workout tracker if he clicks on the "
 
 ## Development
 
-Since I was given the frontend, I worked on 5 files; The server.js, models/index.js, models/workout.js, routes/api-routes.js & routes/html-routes.js. Once I created the server.js and tested I was able to connect to the server on port 4000, I proceeded working on the routes. As soon I was able to reach these pages on the localhost, I continued working on the models files to allow the DB to be created and to be ready to store data.
+I worked on 5 files: server.js, models/index.js, models/workout.js, routes/api-routes.js & routes/html-routes.js. Once I created the server.js and tested I was able to connect to the server on port 4000, I proceeded working on the routes. As soon I was able to reach these pages on the localhost, I continued working on the models files to allow the DB to be created and to be ready to store data.
 As soon the local environment was working and there no further errors, I pushed to heroku and ensured, I was able to use it and it was fully functional.
 
 ## Installation
@@ -110,8 +109,8 @@ As soon the local environment was working and there no further errors, I pushed 
 To use this application locally:
 
 - Install Node.js on your computer.
-- Use `npm init` to build package.json and node_modules.
 - Use `npm install` to install all the dependencies, see [Dependencies](#dependencies) for the complete list
+- Use 'npm run seed' command to populate the database with seeds
 - Open a terminal, navigate to the folder where **_server.js_** is located and type: `node server.js`
 - Once the server is running, open a browser and navigate to localhost:4000 or the port you have selected
 

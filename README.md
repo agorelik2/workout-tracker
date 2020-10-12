@@ -27,7 +27,7 @@ Workout Tracker
 
 ## Description
 
-This application helps you better track your resistance and cardio workouts in order to reach your fitness goals. The stats page will allow you to see graphs representing your performance overtime.
+This application helps you better track your resistance and cardio workouts in order to reach your fitness goals. The stats page will allow you to see graphs representing your performance over time.
 
 ## User Story
 
@@ -38,15 +38,15 @@ This application helps you better track your resistance and cardio workouts in o
 
 ## Functionality
 
-- User is presented with the details of his last workout, and is able to choose between creating a new workout or continueing the existing workout
-- Once the selection is made, user is presented with a new screen that allows him to enter the details for the new exercise or workout. Fist, user is required to select a type of the new exercise. The two options are "Resistance" and "Cardio"
-- User can enter the details for the exercise based on the type of the exercise selected before.
-- User can select either "Add Exercise" or "Complete" option
-- User can see the graphic representation of workout tracker if he clicks on the "Fitness Tracker Dashboard" link
+- User is presented with the details of his last workout, and is able to choose between creating a new workout or continuing the existing workout
+- Once the selection is made, the user is presented with a new screen that allows him to enter the details for the new exercise or workout. First, the user is required to select a type of the new exercise. The two options are "Resistance" and "Cardio"
+- User is able to enter the details for the exercise based on the type of the exercise selected before.
+- User is able to select either "Add Exercise" or "Complete" option
+- User is able to see a graphic representation of workout tracker if he clicks on the "Fitness Tracker Dashboard" link
 
 ## Database
 
-The app utilizes a Mongo database with a Mongoose schema. The schema has only one collection called 'workout' that is created and stored in models/workout.js.
+The app utilizes a MongoDB database with a Mongoose schema. The schema has only one collection called 'workout' that is created and stored in models/workout.js.
 
 ```
 const WorkoutSchema = new Schema({
@@ -102,7 +102,7 @@ User can see the graphic representation of workout tracker if he clicks on the "
 
 ## Development
 
-I worked on 5 files: server.js, models/index.js, models/workout.js, routes/api-routes.js & routes/html-routes.js. Once I created the server.js and tested I was able to connect to the server on port 4000, I proceeded working on the routes. As soon I was able to reach these pages on the localhost, I continued working on the models files to allow the DB to be created and to be ready to store data.
+I mostly worked on 5 files: server.js, models/index.js, models/workout.js, routes/api-routes.js & routes/html-routes.js. Once I created the server.js and tested I was able to connect to the server on port 4000, I proceeded working on the routes. As soon I was able to reach these pages on the localhost, I continued working on the models files to allow the DB to be created and to be ready to store data.
 As soon the local environment was working and there no further errors, I pushed to heroku and ensured, I was able to use it and it was fully functional.
 
 ## Installation
@@ -127,7 +127,8 @@ To use this application locally:
 - [Gitbash](https://gitforwindows.org/)
 - [node.js](https://nodejs.org/en/)
 - [express.js](https://expressjs.com/)
-- HTML, CSS, JavaScript, Mongo DB, Mongoose
+- [mongoDB](https://www.mongodb.com/)
+- [Mongoose](https://mongoosejs.com/docs/guide.html)
 
 ## Repo:
 
